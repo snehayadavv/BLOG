@@ -1,5 +1,6 @@
 
 <% include ./partials/header %>
+<div class="main container">
 <h1>Index page</h1>
 
 <%blogs.forEach(function(blog){%>
@@ -10,5 +11,5 @@
         <p><%=blog.body%></p>
     </div>
 <% }); %>
-
+</div>
 <% include ./partials/footer %>
